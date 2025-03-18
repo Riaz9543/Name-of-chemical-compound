@@ -14,3 +14,18 @@ This is a Telegram bot designed to help users with chemical reactions and the pr
 2. **Chemical Reaction**: Use the `/` command followed by the chemical reaction to get the products. For example, `/HCl + NaOH`.
 3. **Pronunciation**: Simply type the chemical formula (e.g., `H2O`) to get its pronunciation and a voice message.
 4. **Text-to-Speech**: Use the `/tts` command followed by the text you want to convert into speech.
+
+## Dependencies
+
+- `telebot`
+- `pandas`
+- `gtts`
+
+## Datasets
+
+- `compound.csv`: Contains chemical compounds and their pronunciations.
+- `chemical_reaction.csv`: Contains chemical reactions and their products.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
