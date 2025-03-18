@@ -8,7 +8,7 @@ data = pd.read_csv("compound.csv")
 data2 = pd.read_csv("chemical_reaction.csv")
 
 # Initialize the bot with your token
-bot = telebot.TeleBot("7853817283:AAGY9aOT5fnHwOcp2xYTcUZaXGKIKHf11AM")
+bot = telebot.TeleBot("you api key")
 
 def find_pronunciation(formula):
     """Finds the pronunciation of a chemical formula from the dataset."""
